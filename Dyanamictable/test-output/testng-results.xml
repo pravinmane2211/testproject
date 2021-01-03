@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-03T16:25:46Z" name="Default suite" finished-at="2021-01-03T16:26:28Z" duration-ms="42082">
+    <groups>
+    </groups>
+    <test started-at="2021-01-03T16:25:46Z" name="Default test" finished-at="2021-01-03T16:26:28Z" duration-ms="42082">
+      <class name="table.com.ExcelReadWrite">
+        <test-method signature="launch()[pri:0, instance:table.com.ExcelReadWrite@147a5d08]" started-at="2021-01-03T21:55:46Z" name="launch" finished-at="2021-01-03T21:56:07Z" duration-ms="20710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="signin()[pri:0, instance:table.com.ExcelReadWrite@147a5d08]" started-at="2021-01-03T21:56:07Z" name="signin" finished-at="2021-01-03T21:56:28Z" depends-on-methods="table.com.ExcelReadWrite.launch" duration-ms="21341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+      </class> <!-- table.com.ExcelReadWrite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

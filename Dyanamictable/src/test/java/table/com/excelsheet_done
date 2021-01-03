@@ -1,0 +1,16 @@
+public class excaleread{
+public static void main(){
+File file = new File("E:\New for excel");
+FileInputstrem fio =new FileInputstrem(file);
+Workbook workbook=new XSSFWorkBOOK(fio);
+Sheet sheet= workbook.getSheetAt(0);
+for(i=1;i<= sheet.getLastRowNum();i++){
+int id = sheet.getRow(i).getcell(0).getStringCellvalue();
+String username= shett.getRow(i).getcell(0).getStringCellvalue();
+systeam.out.println(id);
+systeam.out.println(username);
+sheet.getRow(i).creatcell(2).setCellvalue("done")
+FileOutputstream Fos=new FileOutputstream(file);
+}
+workbook.close
+}
